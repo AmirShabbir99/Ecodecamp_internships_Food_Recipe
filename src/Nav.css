@@ -1,0 +1,146 @@
+.Nav
+{
+    display:flex;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    height: 40px;
+    border: 2px solid plum;
+    align-items: center;
+}
+.recipe-logo
+{
+    margin-left: 40px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.Nav input
+{
+    margin-left: 500px;
+}
+
+.recipe-list
+{
+    display: flex;
+    color: black;
+   margin-left: 20px;
+}
+div.active
+{
+    color:  rgba(7, 115, 247, 0.57);
+}
+.recipe-nav
+{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px) 
+{
+        .slider
+        {
+            justify-content: center;
+            align-content: center;
+        }
+        .recipe-logo
+        {
+            margin-left: -1px;
+        }
+        .Nav
+        {
+            flex-wrap: wrap;
+        }
+        .recipe-nav  div
+        {
+            font-size: 10px;
+        }
+        .slider-img
+        {
+            
+            height: 100px;
+            width: 150px;
+        }
+        .trend-slider-img
+        {
+            height: 100px;
+            width: 150px;
+        }
+        .recipeid-flex
+        {
+            justify-content: center;
+            align-items: center;
+          display: flex;
+        }
+        .recipeid-img1
+        {
+            margin-left: -90px;
+        }
+        .recipeid-btns
+        {
+            margin-left: 20px !important;
+        }
+        .recipe-instruction
+        {
+            width: 95% !important;
+        }
+      .Recipeid
+      {
+        margin-top: 0px !important;
+        background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+        overflow: auto;
+    }  
+    .Recipeid h1
+    {
+        margin-left: 59px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) 
+{
+        .slider
+        {
+            justify-content: center;
+            align-content: center;
+        }
+        .recipe-logo
+        {
+            margin-left: -1px;
+        }
+        .Nav
+        {
+            flex-wrap: wrap;
+        }
+        .recipe-nav  div
+        {
+            font-size: 10px;
+        }
+        .recipe-list
+        {
+            margin-left: -10px;
+        }
+        .Nav input
+        {
+            height: 10px;
+            width: 100px;
+        }
+        .recipeid-flex
+        {
+            flex-wrap: wrap;
+        }
+        .recipe-instruction
+        {
+            margin-left: 10px;
+        }
+        .Recipeid
+        {
+          background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+            width: 100%;
+            height: 200vh;
+        }  
+  
+}
